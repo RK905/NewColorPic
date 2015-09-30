@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyViewController.h
 //  NewColorPic
 //
 //  Created by Rayen Kamta on 9/29/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ColorViewController : UIViewController
 
+- (IBAction)buttonPressPickColor:(id)sender;
 
 @end
-
