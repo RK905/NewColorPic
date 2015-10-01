@@ -144,7 +144,7 @@
 
 - (void) positionHue {
     CGFloat angle = M_PI * 2 * _hue - M_PI;
-    CGFloat cx = 76 * cos(angle) + 190 - 16.5;
+    CGFloat cx = 76 * cos(angle) + 90 + self.hueImageView.frame.origin.x - 16.5;
     CGFloat cy = 76 * sin(angle) + 90 + self.hueImageView.frame.origin.y - 16.5;
     CGRect frame = self.hueCrosshair.frame;
     frame.origin.x = cx;
